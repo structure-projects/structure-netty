@@ -1,0 +1,15 @@
+structure:
+  netty:
+    socket:
+      client:
+        clients:
+          - url: localhost:18001,localhost:18001,localhost:18001,localhost:18001
+            channelHandler: socketHandler
+            encode: stringEncoder
+            decode: stringDecoder
+          - url: localhost:18001,localhost:18001,localhost:18001,localhost:18001
+            channelHandler: socketHandler
+            encode: stringEncoder
+            decode: stringDecoder
+server:
+  port: 8022

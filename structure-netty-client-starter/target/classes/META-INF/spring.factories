@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.structure.starter.netty.client.configuration.AutoConfiguration,\
+  cn.structure.starter.netty.client.configuration.SocketClient
+
